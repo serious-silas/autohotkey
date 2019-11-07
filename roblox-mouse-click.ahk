@@ -15,7 +15,7 @@ Loop, 3
 Send {3} ; put down the bottle
 Send {Click, 300, 300}
 
-SetKeyDelay,, 500
+SetKeyDelay,, 500 ; sets keypress duration to 500ms
 Send {Up}
 Send {Left}
 

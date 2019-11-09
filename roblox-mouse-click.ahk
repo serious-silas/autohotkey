@@ -1,6 +1,9 @@
-if WinExist("Roblox")
+If (WinExist("Roblox"))
     WinActivate
-
+Else
+    MsgBox, Robolx not found
+    Return
+    
 CoordMode, Mouse, Window
 
 Send {3} ; grab the bottle
